@@ -1,6 +1,6 @@
 ---
 layout: default
-title: @staticmethod和@classmethod的作用与区别
+title: staticmethod和classmethod的作用与区别
 ---
 
 ## {{ page.title }}
