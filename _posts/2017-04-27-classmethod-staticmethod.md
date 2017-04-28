@@ -33,16 +33,13 @@ title: staticmethod和classmethod的作用与区别
 	A.static_foo()
 	A.class_foo()
 
-输出
+输出  
+static_foo  
+1  
 
-static_foo
-
-1
-
-class_foo
-
-1
-
+class_foo  
+1  
 foo
+
 
 [原创链接--飘逸的python - @staticmethod和@classmethod的作用与区别](http://blog.csdn.net/handsomekang/article/details/9615239)
