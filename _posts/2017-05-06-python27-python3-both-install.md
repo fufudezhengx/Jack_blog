@@ -4,6 +4,7 @@ title: Python27 and Python3 both install
 ---
 
 ## {{ page.title }}
+
 #### Python27 添加 Python 路径
 
 Assuming that your Python installation is in C:\Python27\, add this to your PATH:
@@ -26,7 +27,8 @@ download [get-pip.py](https://bootstrap.pypa.io/get-pip.py)
 
 #### Python3 install
 
-安装 Python 时要勾选 *Add Python 3.6 to PATH*
+安装 Python 时要勾选 *Add Python 3.6 to PATH*  
+Python3 自带 Pip 不需要单独安装
 
 
 #### 分别进入 Python2 和 Python3 运行环境
@@ -41,5 +43,13 @@ download [get-pip.py](https://bootstrap.pypa.io/get-pip.py)
 
 	> virtualenv -p C:\Python27\python.exe venv27
 	> virtualenv -p C:\Users\...\Python36-32\python.exe venv36
+
+#### 进入虚拟环境
+	
+	> venv27\Scripts\activate
+
+#### 退出虚拟环境
+
+	> deactivate
 
 
